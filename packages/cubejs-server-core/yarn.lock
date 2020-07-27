@@ -933,10 +933,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@cubejs-backend/api-gateway@^0.19.50":
-  version "0.19.50"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.19.50.tgz#cafb4139e7e911c9b867a457c74fcd2e497923f9"
-  integrity sha512-RVwEwo/qxEwoqI2AV10vX3cH9XQPHPIqDL6274AiR28c9F4eHFw5cHVyy0M/tnabOHIHaJrMl+jIzmWqKwKloQ==
+"@cubejs-backend/api-gateway@^0.19.54":
+  version "0.19.54"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.19.54.tgz#9a8e3bc9dd67fcbef9e85cb183abd1b2ac851864"
+  integrity sha512-VFHQZAzSI+3FyKr73BFGvvsFYFxTT5JwAPFvbNwzF0bcBEiLCzKNdHxfVRv72jiMXGegP1ouqF+9Hv8+/A4aHQ==
   dependencies:
     "@hapi/joi" "^15.1.1"
     chrono-node "1.4.4"
@@ -946,19 +946,19 @@
     ramda "^0.27.0"
     uuid "^3.3.3"
 
-"@cubejs-backend/query-orchestrator@^0.19.53":
-  version "0.19.53"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.19.53.tgz#9ef7bebfdfd69af8118f18ee93944b427a63e102"
-  integrity sha512-Ma3MYnDaqfetalrTM9RHPzOn+gOAw4GbwMPbbuV1R8xocg0s+k2VSOyoNWKRU1Yn1/P72frn3bG3d7fcr+HzAQ==
+"@cubejs-backend/query-orchestrator@^0.19.54":
+  version "0.19.54"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.19.54.tgz#abee60387ecb91f2f5febc17beaa5471032eeebd"
+  integrity sha512-rr1LpvfS9HIO5y/BfGQL6xIaji7yKtyVnPLt80E14e8/1svlX0XXN+yTW18ACjvbs2Ms3Cyo9l7xa1P/kXNR1g==
   dependencies:
     generic-pool "^3.7.1"
     ramda "^0.27.0"
     redis "^3.0.2"
 
-"@cubejs-backend/schema-compiler@^0.19.50":
-  version "0.19.50"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.19.50.tgz#4b7b2a428553112f8b1357ae364c528058bd7567"
-  integrity sha512-Mk7/ye6TEZnwQ38210TWJibd6PA+4qrN99cRuwf1V9VGKfbNS2n0WzVYLl111ajYiQ0b7VfjBaVtKfqNNCqMyg==
+"@cubejs-backend/schema-compiler@^0.19.54":
+  version "0.19.54"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.19.54.tgz#3a7ff27febfe0f9849c40345ae97f995adeacc70"
+  integrity sha512-X3Tbcw3yokVHcGENt5mzDuCkb1AK8cD0fRqlw11PaDjH/O/z/L+S6Sx/GOx+2rxLoDMV7OYiYgEFOdSQzT9qgw==
   dependencies:
     "@babel/generator" "^7.4.0"
     "@babel/parser" "^7.4.2"

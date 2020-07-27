@@ -1,0 +1,33 @@
+{
+  "name": "@cubejs-backend/redis-driver",
+  "description": "Cube.js Redis database driver",
+  "author": "Miłosz Brożek",
+  "version": "0.19.50",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cube-js/cube.js.git",
+    "directory": "packages/cubejs-redis-driver"
+  },
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "main": "driver/RedisDriver.js",
+  "scripts": {
+    "lint": "eslint **/*.js"
+  },
+  "dependencies": {
+    "@cubejs-backend/query-orchestrator": "^0.19.50",
+    "@cubejs-backend/schema-compiler": "^0.19.54",
+    "moment": "^2.24.0",
+    "node-sql-parser": "^3.0.3",
+    "redis": "^3.0.2",
+    "redis-redisearch": "^1.0.1"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^5.2.1"
+  }
+}
