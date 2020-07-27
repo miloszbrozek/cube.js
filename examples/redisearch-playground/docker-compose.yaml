@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  redis_db:
+    container_name: redis_db
+    image: redislabs/redisearch
+    ports:
+      - "6379:6379"

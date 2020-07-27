@@ -1,0 +1,12 @@
+{
+  "name": "cubejs-docker-demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node --inspect index.js "
+  },
+  "dependencies": {
+    "@cubejs-backend/server": "^0.19.55",
+    "@cubejs-backend/server-core": "^0.19.55"
+  }
+}
